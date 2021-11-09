@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";
@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash

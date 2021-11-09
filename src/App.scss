@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Indie+Flower&family=Numans&display=swap");
+
+* {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(71, 76, 79);
+  color: rgb(247, 246, 244);
+  font-size: 1.2em;
+}
+.img-fluid {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+body {
+  background-color: rgb(247, 246, 244);
+  font-family: "Numans", sans-serif;
+  color: rgb(71, 76, 79);
+}
+.App {
+  text-align: center;
+}
+
+.logo {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 7em;
+  margin: 40px;
+  color: rgb(71, 76, 79);
+}
+.slogan {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.6em;
+  margin: 40px;
+  color: rgb(71, 76, 79);
+}
+.loading {
+  font-family: "Indie Flower", cursive;
+  font-size: 3em;
+  margin: 60px;
+  color: rgb(71, 76, 79);
+}
+
+.footer {
+  text-align: end;
+  font-family: "Indie Flower", cursive;
+  margin: 30px auto;
+  font-size: 1.3em;
+  color: rgb(71, 76, 79);
+  padding: 50px 40px 10px 30px;
+}
+.about {
+  margin: 40px;
+  font-size: 1.3em;
+}
+
+.title {
+  font-family: "Indie Flower", cursive;
+  font-size: 3em;
+  margin: 40px;
+  color: rgb(71, 76, 79);
+}
+.about > h2 {
+  font-size: 1.5em;
+}
+.about > h3 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}

@@ -21,19 +21,23 @@ function Projects(props) {
   const loaded = () => {
     return projects.map((project) => (
       <div>
-        <h1>{project.name}</h1>
-        <img src={project.image} />
+        <h1 className="title">{project.name}</h1>
+        <img
+          src={project.image}
+          class="img-fluid rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+          alt="projectImage"
+        />
         <a href={project.git}>
-          <button>Github</button>
+          <button class="btn btn-outline-dark">GitHub</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button class="btn btn-outline-dark">Live Site</button>
         </a>
       </div>
     ));
   };
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects ? loaded() : <h1 className="loading">Loading...</h1>;
 }
 
 export default Projects;
