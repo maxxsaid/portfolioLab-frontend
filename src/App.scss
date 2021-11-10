@@ -51,7 +51,7 @@ body {
   text-align: end;
   font-family: "Indie Flower", cursive;
   margin: 30px auto;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: rgb(71, 76, 79);
   padding: 50px 40px 10px 30px;
 }
@@ -70,8 +70,12 @@ body {
   font-size: 1.5em;
 }
 .about > h3 {
-  font-size: 1.3em;
+  font-size: 1em;
+}
+.about > h3 > span {
+  font-size: 1em;
   text-decoration: underline;
+  color: rgb(132, 148, 147);
 }
 .headshot {
   border-radius: 50%;

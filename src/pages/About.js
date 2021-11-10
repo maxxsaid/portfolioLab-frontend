@@ -26,7 +26,12 @@ function About(props) {
         alt="projectImage"
       />
       <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
+      <h5>
+        <a href={"https://www.linkedin.com/in/maxsaid/"}>LinkedIn</a>
+      </h5>
+      <h3>
+        -<span>{about.email}</span>-
+      </h3>
       <p>{about.bio}</p>
     </div>
   );
