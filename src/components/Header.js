@@ -7,7 +7,7 @@ function Header(props) {
     <header>
       <h1 className="logo">Max Said.</h1>
       <h4 className="slogan">Full Stack Developer | Software Engineer</h4>
-      <nav className="nav border border-4">
+      <nav className="nav border border-4 border-light">
         <Link to="/" class="link-light">
           <div>Home</div>
         </Link>
